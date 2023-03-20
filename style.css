@@ -4,6 +4,13 @@
     }
 }
 
+@media screen and (min-width: 992px){
+    .navbar-brand{
+        display: none;
+    }
+
+}
+
 .logoh
 {
     height: 250px;
@@ -14,4 +21,11 @@
 nav {
     border-top: 2px solid #1db4af;
     border-bottom: 2px solid #1db4af;
+}
+
+.illustration {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: auto;
 }
