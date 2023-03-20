@@ -11,6 +11,10 @@
 
 }
 
+*{
+    font-size: 100%;
+}
+
 .logoh
 {
     height: 250px;
@@ -28,4 +32,8 @@ nav {
     height: auto;
     display: block;
     margin: auto;
+}
+
+p{
+    font-size: 1.2em;
 }
