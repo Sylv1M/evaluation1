@@ -7,9 +7,13 @@
         display: none;
     }
 
-    p {
-        padding-left: 1em;
-        padding-right: 1em;
+    .navbar{
+        position: fixed;
+        width: 100%;
+    }
+
+    main{
+        padding-top: 2em;
     }
 
 }
@@ -40,6 +44,13 @@ nav {
     margin: auto;
 }
 
-p, q{
+p{
     font-size: 1.2em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
+
+span{
+    margin-left: 20px;
+}
+
