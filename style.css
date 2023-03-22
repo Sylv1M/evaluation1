@@ -1,5 +1,6 @@
 *{
     font-size: 100%;
+    font-family: roboto;
 }
 
 @media screen and (max-width: 640px){
@@ -54,3 +55,7 @@ span{
     margin-left: 20px;
 }
 
+footer{
+    background-color: #1db4af;
+    text-align: center;
+}
