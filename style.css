@@ -1,5 +1,5 @@
 *{
-    font-size: 100%;
+    font-size: 1em;
     font-family: roboto;
 }
 
@@ -14,10 +14,6 @@
         z-index: 1;
     }
 
-    main{
-        
-    }
-
 }
 
 @media screen and (min-width: 992px){
@@ -27,6 +23,37 @@
 
     .nav-item{
         font-size: 1.2em;
+    }
+
+    main{
+        font-size: 0.9em;
+    }
+   
+    a:hover{
+        text-decoration: underline;
+    }
+
+    .orange{
+        width: 95%;
+        margin: auto;
+        background-color: #ea6e28;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .illustration {
+        width: 100%;
+        transition: 0.5s all ease-in-out;
+    }
+      
+    .illustration:hover {
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width:640px){
+    h1{
+        margin-top: 15px;
     }
 }
 
