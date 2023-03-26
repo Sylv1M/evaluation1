@@ -157,5 +157,13 @@ span{
 footer{
     background-color: #1db4af;
     text-align: center;
+    
 }
 
+address{
+    font-size: 1.8em;
+}
+
+.coordonnees{
+    margin: 50px;
+}
