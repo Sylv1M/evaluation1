@@ -167,3 +167,8 @@ address{
 .coordonnees{
     margin: 50px;
 }
+
+h4{
+    display: inline-block;
+    margin-left: 20px;
+}
